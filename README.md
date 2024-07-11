@@ -4,12 +4,16 @@ Technologies Used
 
   1. HTML (Hypertext Markup Language):
      The foundation of your webpage, defining the structure and content. It includes various elements like headers, divs, input fields, and buttons to create the layout.
+     
   2. CSS (Cascading Style Sheets):
      Used to style the HTML elements. My main.css file customizes the appearance of the webpage, including layout, colors, and fonts. It also uses Flexbox for alignment and positioning and sets a background image for a visually appealing interface.
+     
   3. JavaScript:
      Adds interactivity to the webpage. main.js file contains the logic for the search functionality and interaction with the user. It uses jQuery and jQuery UI for simpler DOM manipulation and to provide autocomplete features for the search bar.
+     
   4. Bootstrap:
      A front-end framework that provides pre-designed components and a responsive grid layout. Bootstrap ensures that the site is accessible and looks good on different devices.
+     
   5.jQuery and jQuery UI:
      JavaScript libraries that simplify HTML DOM tree traversal and manipulation, event handling, and animation. jQuery UI adds advanced interactions like the autocomplete widget used for the search bar.
 
