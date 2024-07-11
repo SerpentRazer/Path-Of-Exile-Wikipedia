@@ -11,10 +11,10 @@ Technologies Used
   3. JavaScript:
      Adds interactivity to the webpage. main.js file contains the logic for the search functionality and interaction with the user. It uses jQuery and jQuery UI for simpler DOM manipulation and to provide autocomplete features for the search bar.
     
-  3. Bootstrap:
+  4. Bootstrap:
      A front-end framework that provides pre-designed components and a responsive grid layout. Bootstrap ensures that the site is accessible and looks good on different devices.
      
-  4.jQuery and jQuery UI:
+  5.jQuery and jQuery UI:
     JavaScript libraries that simplify HTML DOM tree traversal and manipulation, event handling, and animation. jQuery UI adds advanced interactions like the autocomplete widget used for the search bar.
 
 Code Description
