@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Path Of Wiki</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/css/main.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+</head>
+<body>
+    <div class="scrollable-container-wrapper">
+        <div class="scrollable-container">
+            <div class="logo">
+                <img src="../static/img/title.png" alt="HTML5 Logo" width="450"/>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="input-group search-bar">
+                        <div class="input-group-prepend search-panel">
+                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                                <span id="search_concept">All</span> <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu scrollable-dropdown" role="menu">
+                                <li><a href="#">All</a></li>
+                                <li><a href="#">Helmets</a></li>
+                                <li><a href="#">Body Armor</a></li>
+                                <li><a href="#">Gloves</a></li>
+                                <li><a href="#">Boots</a></li>
+                                <li><a href="#">Belt</a></li>
+                                <li><a href="#">Ring</a></li>
+                                <li><a href="#">Necklace</a></li>
+                                <li><a href="#">Sword</a></li>
+                                <li><a href="#">Bow</a></li>
+                                <li><a href="#">Staff</a></li>
+                                <li><a href="#">Shield</a></li>
+                                <li><a href="#">Gem</a></li>
+                                <li><a href="#">Flask</a></li>
+                                <li><a href="#">Jewel</a></li>
+                                <li><a href="#">Pet</a></li>
+                                <li><a href="#">Currency</a></li>
+                            </ul>
+                        </div>
+                        <input type="hidden" name="search_param" value="all" id="search_param">
+                        <input type="text" class="form-control" name="x" id="search" placeholder="Search">
+                        <div class="input-group-append">
+                            <button class="btn btn-default" type="button">
+                                <span class="glyphicon glyphicon-search"></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="item-details"></div>
+        </div>
+    </div>
+    <div class="rights">
+        <h5>All rights Reserved®</h5>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <script src="../static/js/main.js"></script>
+</body>
+</html>
