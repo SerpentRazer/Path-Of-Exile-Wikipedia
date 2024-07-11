@@ -14,8 +14,8 @@ Technologies Used
   4. Bootstrap:
      A front-end framework that provides pre-designed components and a responsive grid layout. Bootstrap ensures that the site is accessible and looks good on different devices.
      
-  5.jQuery and jQuery UI:
-    JavaScript libraries that simplify HTML DOM tree traversal and manipulation, event handling, and animation. jQuery UI adds advanced interactions like the autocomplete widget used for the search bar.
+    5.jQuery and jQuery UI:
+      JavaScript libraries that simplify HTML DOM tree traversal and manipulation, event handling, and animation. jQuery UI adds advanced interactions like the autocomplete widget used for the search bar.
 
 Code Description
 
